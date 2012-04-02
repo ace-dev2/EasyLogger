@@ -18,6 +18,7 @@ public class Logger {
 	
 	private Logger(){
 		super();
+		//hello comment
 		lock=this;
 	}
 	public static Logger getLogger(){
