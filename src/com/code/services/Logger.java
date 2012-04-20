@@ -15,6 +15,7 @@ public class Logger {
 	private static final String strConfigFileName="easy_logger.properties";
 	private static String strClassName;
 	private BufferedWriter writer;
+	private BufferedWriter writer2;
 	
 	private Logger(){
 		super();
